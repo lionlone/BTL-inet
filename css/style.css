@@ -1,0 +1,14 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.wraper {
+	width: 100%;
+}
+#header {
+	background-color: #ffffff;
+	padding: 17px 0 12px;
+}
+.container {
+	width: 80%;
+}
