@@ -57,7 +57,7 @@ a {
 	padding: 4px;
 }
 .topmenu ul li p {
-	display: inherit; /* vô hiệu hóa đoạn của thẻ p */
+	display: inherit; /* vÃ´ hiá»‡u hÃ³a Ä‘oáº¡n cá»§a tháº» p */
 	color: #CA1919
 }
 #navigation {
@@ -370,20 +370,26 @@ a {
 	font-size: 30px;
 	margin: 0;
 }
-.wraper .service .container .check-domain .search {
-	text-align: center;
-}
+.wraper .service .container .check-domain .search {width: 60%;margin: auto;}
 .wraper .service .container .check-domain .search .form-control {
-	border: none;
-	height: 50px;
-	width: 45%;
+	height: 59px;
+	width: 87%;
 	padding-left: 25px;
 	font-size: 22px;
 	border: 2px solid rgba(0,0,0,0.1);
 	box-sizing: border-box;
+	float: left;
 }
 .wraper .service .container .check-domain .search .btn-test-domain {
 	float: left;
+	height: 60px;
+	width: 13%;
+	font-size: 20px;
+	font-weight: 600;
+	color: aliceblue;
+	background: #1976D2;
+	border: 0px solid;
+	box-sizing: border-box;
 }
 .wraper .service .container .check-domain .search .form-control:focus {
 	border: 2px solid #1976D2;
@@ -391,5 +397,3 @@ a {
 }
 .wraper .service .container .check-domain .top-domain {
 }
-
-
