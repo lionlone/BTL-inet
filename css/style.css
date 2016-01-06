@@ -92,7 +92,7 @@ b {
 	transition: 0.5s all;
 }
 #navigation>ul>li>a:hover {
-	background-color:#3bafda;
+	background-color:#0083EB;
 }
 #navigation>ul>li>a[href="khuyen-mai.html"]:before {
     content:'\f0f3';
@@ -431,7 +431,6 @@ b {
 .service {
 	background: linear-gradient(to right, #cc5e0e 0, #dda436 50%, #cc5e0e 100%);
 	border-top: 2px solid #DDA436;
-	overflow: auto;
 }
 .service .container .check-domain {
 }
@@ -480,5 +479,5 @@ b {
 .wraper .service .container .check-domain .top-domain {
 }
 
-
+/* End slide*/
 >>>>>>> origin/master
