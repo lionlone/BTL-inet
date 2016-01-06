@@ -79,7 +79,7 @@ b {
 	height: 50px;
 }
 #navigation>ul>li {
-	line-height: 50px;
+  padding: 18px 0px;
 	list-style: none;
 	float: left;
 }
@@ -109,6 +109,7 @@ b {
     transform-origin: 50% 4px;
 }
 #navigation>ul>li>.DropMenu {
+   margin: 16px 0 0 0px;
     background: #fff;
     border-width: 5px 1px 1px;
     border-color: #1976D2;
@@ -132,6 +133,7 @@ b {
     padding-right: 15px;
 }
 #navigation>ul>li>.DropMenu>.row>.SubItem h5 {
+    line-height: 33px;
     background-color: #525252;
     text-transform: uppercase;
     padding: 0px 11px;
