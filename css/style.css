@@ -57,7 +57,7 @@ a {
 	padding: 4px;
 }
 .topmenu ul li p {
-	display: inherit; /* vÃ´ hiá»‡u hÃ³a Ä‘oáº¡n cá»§a tháº» p */
+	display: inherit; /* vô hiệu hóa đoạn của thẻ p */
 	color: #CA1919
 }
 #navigation {
@@ -397,3 +397,5 @@ a {
 }
 .wraper .service .container .check-domain .top-domain {
 }
+
+
