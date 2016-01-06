@@ -7,35 +7,43 @@ a {
 }
 .wraper {
 	width: 100%;
+	margin: auto;
 }
 #header {
 	background-color: #ffffff;
-	padding: 17px 0 12px;
+	padding: 5px;
+	box-sizing: border-box;
+	overflow: auto;
 }
 #header .container {
-	width: 86%;
+	width: 1200px;
 	margin: auto;
 }
 #header .container .logo {
 	float: left;
-	margin: 0 10px;
+	margin: 10px;
 }
-#header .container .logo img{
+#header .container .logo img {
 	width: 100%;
 }
 #header .container .banner {
 	float: left;
-    padding: 10px
+	margin: 18px 0 0 50px;
 }
 .topmenu {
 	float: right;
+	box-sizing: border-box;
+	padding: 37px 0 0 0;
 }
 .topmenu ul {
-	padding: 14px 0;
+	width: 100%;
+	margin: 0;
+	padding: 0;
 }
 .topmenu ul li {
 	list-style: none;
 	float: left;
+	margin-left: 5px;
 }
 .topmenu ul li a {
 	color: #929292;
@@ -49,21 +57,21 @@ a {
 	padding: 4px;
 }
 .topmenu ul li p {
-	display: inherit; /* vô hiệu hóa đoạn của thẻ p */
-    color: #CA1919
+	display: inherit; /* vÃƒÂ´ hiÃ¡Â»â€¡u hÃƒÂ³a Ã„â€˜oÃ¡ÂºÂ¡n cÃ¡Â»Â§a thÃ¡ÂºÂ» p */
+	color: #CA1919
 }
 #navigation {
 	clear: both;
 	background-color: #1976D2;
 }
 #navigation>ul {
-	width: 86%;
+	width: 1200px;
 	margin: auto;
 	height: 50px;
 }
 #navigation>ul>li {
 	line-height: 50px;
-	list-style:none;
+	list-style: none;
 	float: left;
 }
 #navigation>ul>li>a {
@@ -72,25 +80,27 @@ a {
 	text-transform: uppercase;
 	font-family: arial;
 	font-size: 15px;
-	transition: 1s all;
+	transition: 0.5s all;
 }
 #navigation>ul>li>a:hover {
-	background-color: #8ABEF1;
+	background-color: #2196f3;
 }
 #navigation>ul>li>a[href="khuyen-mai.html"]:before {
-	position:relative;
-    content:'\f0f3';
-    color: #fbe16b;
-    font-family: FontAwesome;
-    font-size: 16px;
-    position: relative;
-    right: -109px;
-    top: -16px;
-    -webkit-animation: ring 8s 1s ease-in-out infinite;
-    -webkit-transform-origin: 50% 4px;
-    -moz-animation: ring 8s 1s ease-in-out infinite;
-    -moz-transform-origin: 50% 4px;
-    animation: ring 8s 1s ease-in-out infinite;
-    transform-origin: 50% 4px;
+	position: relative;
+	content: '\f0f3';
+	color: #fbe16b;
+	font-family: FontAwesome;
+	font-size: 16px;
+	position: relative;
+	right: -109px;
+	top: -16px;
+	-webkit-animation: ring 8s 1s ease-in-out infinite;
+	-webkit-transform-origin: 50% 4px;
+	-moz-animation: ring 8s 1s ease-in-out infinite;
+	-moz-transform-origin: 50% 4px;
+	animation: ring 8s 1s ease-in-out infinite;
+	transform-origin: 50% 4px;
 }
-.fa-bell:before{content:"\f0f3"}
+.fa-bell:before {
+	content: "\f0f3"
+}
