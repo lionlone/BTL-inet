@@ -482,7 +482,7 @@ b {
 .wraper .service .container .check-domain .search {width: 60%;margin: auto;	overflow: auto;background: #1976D2;}
 .wraper .service .container .check-domain .search .form-control {
 	height: 59px;
-	width: 87%;
+	width: 80%;
 	padding-left: 25px;
 	font-size: 22px;
 	border: 2px solid rgba(0,0,0,0.1);
@@ -493,7 +493,7 @@ b {
   text-transform: uppercase;
 	float: left;
 	height: 60px;
-	width: 13%;
+	width: 20%;
 	font-size: 20px;
 	font-weight: 600;
 	color: aliceblue;
@@ -510,4 +510,32 @@ b {
 }
 .wraper .service .container .check-domain .top-domain {
 }
-
+/*Css Top Domain */
+.top-domain {
+  text-align: center;
+}
+.top-domain ul {
+  list-style: none;
+  display: inline-block;
+}
+.top-domain ul li {
+  float: left;
+  margin: 16px 38px 0 0;
+}
+.top-domain ul li p {
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 0;
+    text-align: right;
+}
+.top-domain ul li p span {
+    display: block;
+    font-size: 14px;
+    margin-bottom: -3px;
+    text-decoration: line-through;
+    color: #fff;
+}
+.top-domain ul li img {
+    margin-right: 5px;
+    margin-top: -16px;
+}
