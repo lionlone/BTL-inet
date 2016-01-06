@@ -350,6 +350,7 @@ a {
 .service {
 	background: linear-gradient(to right, #cc5e0e 0, #dda436 50%, #cc5e0e 100%);
 	border-top: 2px solid #DDA436;
+	overflow: auto;
 }
 .service .container .check-domain {
 }
@@ -370,7 +371,7 @@ a {
 	font-size: 30px;
 	margin: 0;
 }
-.wraper .service .container .check-domain .search {width: 60%;margin: auto;}
+.wraper .service .container .check-domain .search {width: 60%;margin: auto;	overflow: auto;background: #1976D2;}
 .wraper .service .container .check-domain .search .form-control {
 	height: 59px;
 	width: 87%;
