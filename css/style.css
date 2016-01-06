@@ -127,10 +127,13 @@ b {
   margin: 2px;
 }
 #navigation>ul>li>.DropMenu>.row>.SubItem {
-     width: 44%;
+    width: 44%;
     float: left;
      padding-left: 15px;
     padding-right: 15px;
+}
+#navigation>ul>li>.DropMenu>.row>.Full {
+    width: 90%;
 }
 #navigation>ul>li>.DropMenu>.row>.SubItem h5 {
     line-height: 33px;
@@ -161,6 +164,31 @@ b {
     font-size: 22px;
     margin: 12px 15px 0 10px;
     color: #525252;
+}
+#navigation>ul>li>.DropMenu>.row>.SubItem>ul>li .geotrust-icon {
+    background: url(../images/geotrust-menu-icon.png) no-repeat center left;
+    width: 23px;
+    height: 20px;
+}
+#navigation>ul>li>.DropMenu>.row>.SubItem>ul>li .globalsign-icon {
+    background: url(../images/globalsign-menu-icon.png) no-repeat center left;
+    width: 25px;
+    height: 20px;
+}
+#navigation>ul>li>.DropMenu>.row>.SubItem>ul>li .cpanel-icon {
+    background: url(../images/cpanel-logo.png) no-repeat center left;
+    width: 25px;
+    height: 20px;
+}
+#navigation>ul>li>.DropMenu>.row>.SubItem>ul>li .directa-icon {
+    background: url(../images/da-logo.png) no-repeat center left;
+    width: 23px;
+    height: 20px;
+}
+#navigation>ul>li>.DropMenu>.row>.SubItem>ul>li .qtmc-icon {
+    background: url(../images/qtmc-logo.png) no-repeat center left;
+    width: 25px;
+    height: 20px;
 }
 .fa {
     display: inline-block;
@@ -454,7 +482,7 @@ b {
 .wraper .service .container .check-domain .search {width: 60%;margin: auto;	overflow: auto;background: #1976D2;}
 .wraper .service .container .check-domain .search .form-control {
 	height: 59px;
-	width: 87%;
+	width: 80%;
 	padding-left: 25px;
 	font-size: 22px;
 	border: 2px solid rgba(0,0,0,0.1);
@@ -462,9 +490,10 @@ b {
 	float: left;
 }
 .wraper .service .container .check-domain .search .btn-test-domain {
+  text-transform: uppercase;
 	float: left;
 	height: 60px;
-	width: 13%;
+	width: 20%;
 	font-size: 20px;
 	font-weight: 600;
 	color: aliceblue;
@@ -472,12 +501,47 @@ b {
 	border: 0px solid;
 	box-sizing: border-box;
 }
+.wraper .service .container .check-domain .search .btn-test-domain:hover {
+  background-color: #2981D8;
+}
 .wraper .service .container .check-domain .search .form-control:focus {
-	border: 2px solid #1976D2;
+	border: 3px solid #1976D2;
 	transition: All 0.5s ease-in-out;
 }
 .wraper .service .container .check-domain .top-domain {
 }
+<<<<<<< HEAD
 
 /* End slide*/
+>>>>>>> origin/master
+=======
+/*Css Top Domain */
+.top-domain {
+  text-align: center;
+}
+.top-domain ul {
+  list-style: none;
+  display: inline-block;
+}
+.top-domain ul li {
+  float: left;
+  margin: 16px 38px 0 0;
+}
+.top-domain ul li p {
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 0;
+    text-align: right;
+}
+.top-domain ul li p span {
+    display: block;
+    font-size: 14px;
+    margin-bottom: -3px;
+    text-decoration: line-through;
+    color: #fff;
+}
+.top-domain ul li img {
+    margin-right: 5px;
+    margin-top: -16px;
+}
 >>>>>>> origin/master
