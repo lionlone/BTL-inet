@@ -345,4 +345,51 @@ a {
 .fa-bell:before {
 	content: "\f0f3"
 }
->>>>>>> origin/master
+/* begin slide*/
+
+.service {
+	background: linear-gradient(to right, #cc5e0e 0, #dda436 50%, #cc5e0e 100%);
+	border-top: 2px solid #DDA436;
+}
+.service .container .check-domain {
+}
+.wraper .service .container .check-domain .header {
+	font-family: arial;
+	text-align: center;
+	margin-bottom: 45px;
+	color: aliceblue;
+}
+.wraper .service .container .check-domain .header .main-title {
+	font-size: 50px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 35px 0 15px 0;
+}
+.wraper .service .container .check-domain .header .sub-title {
+	font-size: 30px;
+	margin: 0;
+}
+.wraper .service .container .check-domain .search {
+	text-align: center;
+}
+.wraper .service .container .check-domain .search .form-control {
+	border: none;
+	height: 50px;
+	width: 45%;
+	padding-left: 25px;
+	font-size: 22px;
+	border: 2px solid rgba(0,0,0,0.1);
+	box-sizing: border-box;
+}
+.wraper .service .container .check-domain .search .btn-test-domain {
+	float: left;
+}
+.wraper .service .container .check-domain .search .form-control:focus {
+	border: 2px solid #1976D2;
+	transition: All 0.5s ease-in-out;
+}
+.wraper .service .container .check-domain .top-domain {
+}
+
+
