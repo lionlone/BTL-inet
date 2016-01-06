@@ -109,7 +109,7 @@ b {
     transform-origin: 50% 4px;
 }
 #navigation>ul>li>.DropMenu {
-   margin: 16px 0 0 0px;
+   margin: 14px 0 0 0px;
     background: #fff;
     border-width: 5px 1px 1px;
     border-color: #1976D2;
@@ -127,9 +127,9 @@ b {
   margin: 2px;
 }
 #navigation>ul>li>.DropMenu>.row>.SubItem {
-  width: 45%;
-  float: left;
-  padding-left: 15px;
+     width: 44%;
+    float: left;
+     padding-left: 15px;
     padding-right: 15px;
 }
 #navigation>ul>li>.DropMenu>.row>.SubItem h5 {
@@ -137,7 +137,7 @@ b {
     background-color: #525252;
     text-transform: uppercase;
     padding: 0px 11px;
-    font-size: 14px;
+    font-size: 12px;
     margin: 6px 0 0;
     color: #fff;
 }
