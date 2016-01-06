@@ -2,6 +2,9 @@ body {
 	margin: 0;
 	padding: 0;
 }
+a {
+	text-decoration: none;
+}
 .wraper {
 	width: 100%;
 }
@@ -9,6 +12,85 @@ body {
 	background-color: #ffffff;
 	padding: 17px 0 12px;
 }
-.container {
-	width: 80%;
+#header .container {
+	width: 86%;
+	margin: auto;
 }
+#header .container .logo {
+	float: left;
+	margin: 0 10px;
+}
+#header .container .logo img{
+	width: 100%;
+}
+#header .container .banner {
+	float: left;
+    padding: 10px
+}
+.topmenu {
+	float: right;
+}
+.topmenu ul {
+	padding: 14px 0;
+}
+.topmenu ul li {
+	list-style: none;
+	float: left;
+}
+.topmenu ul li a {
+	color: #929292;
+	font-size: 14px;
+	font-weight: 600;
+}
+.topmenu ul li a:hover {
+	color: #1976D2;
+}
+.topmenu ul li span {
+	padding: 4px;
+}
+.topmenu ul li p {
+	display: inherit; /* vô hiệu hóa đoạn của thẻ p */
+    color: #CA1919
+}
+#navigation {
+	clear: both;
+	background-color: #1976D2;
+}
+#navigation>ul {
+	width: 86%;
+	margin: auto;
+	height: 50px;
+}
+#navigation>ul>li {
+	line-height: 50px;
+	list-style:none;
+	float: left;
+}
+#navigation>ul>li>a {
+	color: #ffffff;
+	padding: 17px 10px;
+	text-transform: uppercase;
+	font-family: arial;
+	font-size: 15px;
+	transition: 1s all;
+}
+#navigation>ul>li>a:hover {
+	background-color: #8ABEF1;
+}
+#navigation>ul>li>a[href="khuyen-mai.html"]:before {
+	position:relative;
+    content:'\f0f3';
+    color: #fbe16b;
+    font-family: FontAwesome;
+    font-size: 16px;
+    position: relative;
+    right: -109px;
+    top: -16px;
+    -webkit-animation: ring 8s 1s ease-in-out infinite;
+    -webkit-transform-origin: 50% 4px;
+    -moz-animation: ring 8s 1s ease-in-out infinite;
+    -moz-transform-origin: 50% 4px;
+    animation: ring 8s 1s ease-in-out infinite;
+    transform-origin: 50% 4px;
+}
+.fa-bell:before{content:"\f0f3"}
