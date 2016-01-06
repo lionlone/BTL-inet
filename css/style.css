@@ -5,6 +5,15 @@ body {
 a {
 	text-decoration: none;
 }
+b {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
 .wraper {
 	width: 100%;
 	margin: auto;
@@ -98,6 +107,73 @@ a {
     -moz-transform-origin: 50% 4px;
     animation: ring 8s 1s ease-in-out infinite;
     transform-origin: 50% 4px;
+}
+#navigation>ul>li>.DropMenu {
+    background: #fff;
+    border-width: 5px 1px 1px;
+    border-color: #1976D2;
+    border-style: solid;
+    display: none;
+    position: absolute;
+    z-index: 666;
+    min-height: 1px;
+}
+#navigation>ul>li:hover>.DropMenu {
+    display: block;
+    z-index: 666;
+}
+#navigation>ul>li>.DropMenu>.row {
+  margin: 2px;
+}
+#navigation>ul>li>.DropMenu>.row>.SubItem {
+  width: 45%;
+  float: left;
+  padding-left: 15px;
+    padding-right: 15px;
+}
+#navigation>ul>li>.DropMenu>.row>.SubItem h5 {
+    background-color: #525252;
+    text-transform: uppercase;
+    padding: 0px 11px;
+    font-size: 14px;
+    margin: 6px 0 0;
+    color: #fff;
+}
+#navigation>ul>li>.DropMenu>.row>.SubItem>ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#navigation>ul>li>.DropMenu>.row>.SubItem>ul>li{
+  border-bottom: 2px dotted #ccc;
+  padding: 15px 0;
+}
+#navigation>ul>li>.DropMenu>.row>.SubItem>ul>li b{
+  font-weight: 700;
+  display: block;
+  line-height: 18px;
+}
+#navigation>ul>li>.DropMenu>.row>.SubItem>ul>li i {
+    display: block;
+    float: left;
+    font-size: 22px;
+    margin: 12px 15px 0 10px;
+    color: #525252;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0,0);
+}
+.DropMenu>.row>.SubItem>ul>li span {
+    line-height: 0!important;
+    font-size: 13px;
+    color: #525252;
+    text-transform: none;
 }
 @-webkit-keyframes ring {
   0% {
@@ -323,26 +399,3 @@ a {
     transform:rotate(0);
   }
 }
-=======
-	background-color: #2196f3;
-}
-#navigation>ul>li>a[href="khuyen-mai.html"]:before {
-	position: relative;
-	content: '\f0f3';
-	color: #fbe16b;
-	font-family: FontAwesome;
-	font-size: 16px;
-	position: relative;
-	right: -109px;
-	top: -16px;
-	-webkit-animation: ring 8s 1s ease-in-out infinite;
-	-webkit-transform-origin: 50% 4px;
-	-moz-animation: ring 8s 1s ease-in-out infinite;
-	-moz-transform-origin: 50% 4px;
-	animation: ring 8s 1s ease-in-out infinite;
-	transform-origin: 50% 4px;
-}
-.fa-bell:before {
-	content: "\f0f3"
-}
->>>>>>> origin/master
