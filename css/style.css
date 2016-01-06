@@ -127,10 +127,13 @@ b {
   margin: 2px;
 }
 #navigation>ul>li>.DropMenu>.row>.SubItem {
-     width: 44%;
+    width: 44%;
     float: left;
      padding-left: 15px;
     padding-right: 15px;
+}
+#navigation>ul>li>.DropMenu>.row>.Full {
+    width: 90%;
 }
 #navigation>ul>li>.DropMenu>.row>.SubItem h5 {
     line-height: 33px;
@@ -161,6 +164,31 @@ b {
     font-size: 22px;
     margin: 12px 15px 0 10px;
     color: #525252;
+}
+#navigation>ul>li>.DropMenu>.row>.SubItem>ul>li .geotrust-icon {
+    background: url(../images/geotrust-menu-icon.png) no-repeat center left;
+    width: 23px;
+    height: 20px;
+}
+#navigation>ul>li>.DropMenu>.row>.SubItem>ul>li .globalsign-icon {
+    background: url(../images/globalsign-menu-icon.png) no-repeat center left;
+    width: 25px;
+    height: 20px;
+}
+#navigation>ul>li>.DropMenu>.row>.SubItem>ul>li .cpanel-icon {
+    background: url(../images/cpanel-logo.png) no-repeat center left;
+    width: 25px;
+    height: 20px;
+}
+#navigation>ul>li>.DropMenu>.row>.SubItem>ul>li .directa-icon {
+    background: url(../images/da-logo.png) no-repeat center left;
+    width: 23px;
+    height: 20px;
+}
+#navigation>ul>li>.DropMenu>.row>.SubItem>ul>li .qtmc-icon {
+    background: url(../images/qtmc-logo.png) no-repeat center left;
+    width: 25px;
+    height: 20px;
 }
 .fa {
     display: inline-block;
@@ -431,7 +459,6 @@ b {
 .service {
 	background: linear-gradient(to right, #cc5e0e 0, #dda436 50%, #cc5e0e 100%);
 	border-top: 2px solid #DDA436;
-	overflow: auto;
 }
 .service .container .check-domain {
 }
@@ -480,5 +507,3 @@ b {
 .wraper .service .container .check-domain .top-domain {
 }
 
-
->>>>>>> origin/master
