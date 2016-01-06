@@ -57,7 +57,7 @@ a {
 	padding: 4px;
 }
 .topmenu ul li p {
-	display: inherit; /* vÃƒÂ´ hiÃ¡Â»â€¡u hÃƒÂ³a Ã„â€˜oÃ¡ÂºÂ¡n cÃ¡Â»Â§a thÃ¡ÂºÂ» p */
+	display: inherit; /* vô hiệu hóa đoạn của thẻ p */
 	color: #CA1919
 }
 #navigation {
