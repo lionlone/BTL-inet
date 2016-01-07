@@ -509,6 +509,7 @@ b {
 	transition: All 0.5s ease-in-out;
 }
 .wraper .service .container .check-domain .top-domain {
+	text-align: center;
 }
 <<<<<<< HEAD
 
