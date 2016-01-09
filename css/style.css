@@ -608,3 +608,11 @@ h3.title {
     font-weight: 400;
     color: #727272;
 }
+.wraper .container .service-basic {
+}
+.wraper .container .service-basic .custom {box-sizing: border-box;width: 100%;overflow: auto;}
+.wraper .container .service-basic .custom .custom-item {width: 20%;height: auto;float: left;box-sizing: border-box;padding: 10px;}
+.wraper .container .service-basic .custom .custom-item figure {text-align: center;}
+.wraper .container .service-basic .custom .custom-item figure img {
+}
+.wraper .container .service-basic .custom .custom-item figure figcaption {padding: 0;}
