@@ -6,7 +6,10 @@
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <!--Library font icon by bootstrap -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"/>
-<link rel="stylesheet" type="text/css" href="">
+<script type="text/javascript" src="js/jssor.js"></script>
+    <script type="text/javascript" src="js/jssor.slider.js"></script>
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/slide.js"></script>
 </head>
 <body>
 <!-- Start Wraper Cao Dũng -->
@@ -294,7 +297,7 @@
 						</li>
 						<li>
 							<a href="#">PHẦN MỀM</a>
-								<div class="DropMenu">
+								<div class="DropMenu Pm">
                                 <div class="row">
                                     <div class="SubItem Full">
                                         <h5>Đăng ký dịch vụ Phần mềm</h5>
@@ -386,9 +389,32 @@
 		<div class="container">
 			<div class="row">
 				<!--Slide-->
-dfdfdfd
+ 				<div id="sliderb_container" style="position: relative; width: 1140px; height: 140px; overflow: hidden;">
+      				  <div u="loading" style="position: absolute; top: 0px; left: 0px;">
+        			    <div style="filter: alpha(opacity=70); opacity:0.7; position: absolute; display: block;background-color: #000; top: 0px; left: 0px;width: 100%;height:100%;">
+          				</div>
+            			<div style="position: absolute; display: block; background: url(../img/loading.gif) no-repeat center center;top: 0px; left: 0px;width: 100%;height:100%;">
+            			</div>
+       				 </div>
+				<!-- Slider Container -->
+       		 <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1140px; height: 140px; overflow: hidden;">
+           		 <div>
+              	  <img u=image src="images/banner1.gif" />
+           		 </div>
+	            <div>
+	                <img u=image src="images/banner2.gif" />  
+	            </div>
+	            <div>
+	                <img u=image src="images/banner3.gif" />
+	            </div>
+       		 </div>
+       			<span u="arrowleft" class="jssora05l" style="width: 40px; height: 40px; top: 123px; left: 8px;"></span>
+       				 <!-- Arrow Right -->
+       				 <span u="arrowright" class="jssora05r" style="width: 40px; height: 40px; top: 123px; right: 8px"></span>
+				</div>
 				<!--close slide -->
 			</div>
+			<h3 class="title">Dịch Vụ cơ bản</h3>
 		</div>
 	<!-- Close Wraper Cao Dũng --> 		
 	</div>

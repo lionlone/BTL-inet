@@ -120,8 +120,12 @@ b {
     min-height: 1px;
 }
 #navigation>ul>li:hover>.DropMenu {
+	width: 560px;
     display: block;
     z-index: 666;
+}
+.Pm {
+	width:250px!important;
 }
 #navigation>ul>li>.DropMenu>.row {
   margin: 2px;
@@ -509,7 +513,11 @@ b {
 	transition: All 0.5s ease-in-out;
 }
 .wraper .service .container .check-domain .top-domain {
+<<<<<<< HEAD
   text-align: center;
+=======
+	text-align: center;
+>>>>>>> origin/master
 }
 <<<<<<< HEAD
 
@@ -545,4 +553,58 @@ b {
     margin-right: 5px;
     margin-top: -16px;
 }
->>>>>>> origin/master
+.jssorb01 div, .jssorb01 div:hover, .jssorb01 .av{
+   filter: alpha(opacity=70);
+   opacity: .7;
+   overflow:hidden;
+   cursor: pointer;
+   border: #000 1px solid;
+}
+.jssorb01 div {
+  background-color: gray;
+}
+.jssorb01 div:hover, .jssorb01 .av:hover {
+  background-color: #d3d3d3;
+}
+.jssorb01 .av {
+  background-color: #fff;
+}
+.jssorb01 .dn, .jssorb01 .dn:hover {
+  background-color: #555555;
+}
+.jssora05l, .jssora05r, .jssora05ldn, .jssora05rdn {
+    position: absolute;
+    cursor: pointer;
+    display: block;
+    background: url(../images/next.png) no-repeat;
+    overflow:hidden;
+            }
+.jssora05l {
+  background-position: -10px -40px;
+}
+.jssora05r {
+  background-position: -70px -40px;
+}
+.jssora05l:hover {
+  background-position: -130px -40px;
+}
+.jssora05r:hover {
+  background-position: -190px -40px;
+}
+.jssora05ldn {
+  background-position: -250px -40px;
+}
+.jssora05rdn {
+  background-position: -310px -40px;
+}
+.row {
+  padding:35px 0px;
+}
+h3.title {
+  display: inline-block;
+    padding: 0 30px 14px 0;
+    border-bottom: 1px solid #e2e2e2;
+    font-size: 28px;
+    font-weight: 400;
+    color: #727272;
+}
