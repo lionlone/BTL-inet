@@ -608,3 +608,96 @@ h3.title {
     font-weight: 400;
     color: #727272;
 }
+/*SOCIAL */
+.social {
+  background-color: #2196F3;
+  display: flex;
+}
+.social a {
+    color: #fff;
+}
+.left {
+  width: 680px;
+  float: left;
+}
+.social ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+.social ul li {
+    border-left: 1px solid #32a7fe;
+    float: left;
+    margin: 0;
+    padding: 25px 30px;
+}
+.social ul li:hover {
+  background-color: #1976d2;
+}
+.fs20 {
+    font-size: 25px!important;
+}
+.mr5 {
+    margin: 5px!important;
+}
+.email-km {
+  width: 457px;
+  float: right;
+}
+.validate-email {
+  padding-top: 15px!important;
+  padding-bottom: 15px!important;
+}
+.form>.form-control {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 3px 9px;
+    font-size: 13px;
+    line-height: 3.5;
+    color: #1B1B1A!important;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid rgba(131, 130, 130, 0.88);
+    box-shadow: none;
+    border-radius: 0;
+    -o-transition: border-color ease-in-out .15s;
+    transition: border-color ease-in-out .15s;
+}
+.form {
+    float: left;
+    width: 75%;
+}
+.button {
+    width: 21%;
+    float: right;
+}
+.btn-button {
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 14px;
+    color: #fff;
+    background-color: #1952D2;
+    border-color: #46b8da;
+}
+.btn-button:hover {
+  background: rgba(25, 82, 210, 0.85);
+}
+.footer {
+  background-color: #1976d2;
+  color: #BBDEFB;
+  padding-bottom: 5px!important;
+}
+.footer a {
+  color: #fff38d;
+}
+h4.HeadLine {
+    border-bottom: 1px solid #3592ee;
+    padding: 15px;
+    margin: 0;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    line-height: 24px;
+    font-family: tahoma;
+}

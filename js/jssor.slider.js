@@ -4042,27 +4042,4 @@ var $JssorCaptionSlider$ = window.$JssorCaptionSlider$ = function (container, ca
     }
 };
 
-//Event Table
-
-//$EVT_CLICK = 21;			    function(slideIndex[, event])
-//$EVT_DRAG_START = 22;		    function(position[, virtualPosition, event])
-//$EVT_DRAG_END = 23;		    function(position, startPosition[, virtualPosition, virtualStartPosition, event])
-//$EVT_SWIPE_START = 24;		function(position[, virtualPosition])
-//$EVT_SWIPE_END = 25;		    function(position[, virtualPosition])
-
-//$EVT_LOAD_START = 26;			function(slideIndex)
-//$EVT_LOAD_END = 27;			function(slideIndex)
-
-//$EVT_POSITION_CHANGE = 202;	function(position, fromPosition[, virtualPosition, virtualFromPosition])
-//$EVT_PARK = 203;			    function(slideIndex, fromIndex)
-
-//$EVT_PROGRESS_CHANGE = 208;	function(slideIndex, progress[, progressBegin, idleBegin, idleEnd, progressEnd])
-//$EVT_STATE_CHANGE = 209;	    function(slideIndex, progress[, progressBegin, idleBegin, idleEnd, progressEnd])
-
-//$EVT_ROLLBACK_START = 210;	function(slideIndex, progress[, progressBegin, idleBegin, idleEnd, progressEnd])
-//$EVT_ROLLBACK_END = 211;	    function(slideIndex, progress[, progressBegin, idleBegin, idleEnd, progressEnd])
-
-//$EVT_SLIDESHOW_START = 206;   function(slideIndex[, progressBegin, slideshowBegin, slideshowEnd, progressEnd])
-//$EVT_SLIDESHOW_END = 207;     function(slideIndex[, progressBegin, slideshowBegin, slideshowEnd, progressEnd])
-
-//http://www.jssor.com/development/reference-api.html
+// Slide by json desgin cao dũng
