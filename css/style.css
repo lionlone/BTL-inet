@@ -434,7 +434,7 @@ b {
 }
 =======
 }
-=======  background-color: #2196f3;
+======= background-color: #2196f3;
 }
 #navigation>ul>li>a[href="khuyen-mai.html"]:before {
 	position: relative;
@@ -517,8 +517,7 @@ b {
 .wraper .service .container .check-domain .top-domain {
 	text-align: center;
 }
-<<<<<<< HEAD 
-/* End slide*/
+<<<<<<< HEAD /* End slide*/
 >>>>>>> origin/master ======= /*Css Top Domain */
 .top-domain {
  text-align: center;
@@ -640,7 +639,7 @@ h3.title {
 }
 .service-basic.container .custom .custom-item figure .img-thumbnail:hover {
 	border: 1px solid #2196F3;
-	opacity:0.6;
+	opacity: 0.6;
 }
 .wraper .container .service-basic .custom .custom-item figure img {
 }
@@ -657,7 +656,7 @@ h3.title {
 	text-transform: uppercase;
 }
 .service-basic.container .custom .custom-item figure figcaption .des {
-    min-height: 35px;
+	min-height: 35px;
 }
 .service-basic.container .custom .custom-item figure figcaption .btn-control {
 	color: #1976D2;
@@ -678,3 +677,79 @@ h3.title {
 	color: #2196F3;
 }
 /* end item-content */
+/* begin o-service */
+.o-service {
+	box-sizing: border-box;
+	margin-top: 20px;
+	background-attachment: fixed;
+	background-color: rgba(0,0,0,0);
+	background-image: url(../images/bg-o-service.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% center;
+	padding: 10px 0 0 0px;
+	overflow: auto;
+}
+.o-service .title-o-service {
+	font-size: 24px;
+	width: 22%;
+	border-bottom: 1px solid white;
+	color: white;
+	font-weight: 600;
+	height: 35px;
+	box-sizing: border-box;
+}
+.o-service .container .sub-service {
+	margin-top: 20px;
+	width: 48%;
+	float: left;
+	background: white;
+	box-sizing: border-box;
+	padding: 0 25px 0 0;
+}
+.o-service .container .left {
+	margin-right: 1%;
+}
+.o-service .container .right {
+	margin-left: 1%;
+}
+.o-service .container .sub-service article {
+	text-align: right;
+}
+.o-service .container .sub-service article h4 {
+	text-transform: uppercase;
+	color: #525252;
+	font-size: 18px;
+}
+.o-service .container .sub-service article p {
+	width: 60%;
+	float: right;
+}
+.o-service .container .sub-service article h4 .text-info-o {
+	color: #1976D2;
+}
+.o-service .container .sub-service article .btn-see-more-left {
+	clear: both;
+	float: right;
+	height: 32px;
+	background: #ec903f;
+	width: 30%;
+	text-align: center;
+	line-height: 35px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: white;
+}
+.o-service .container .sub-service .btn-see-more-right {
+	clear: both;
+	float: right;
+	clear: both;
+	float: right;
+	height: 32px;
+	background: #4EBA98;
+	width: 30%;
+	text-align: center;
+	line-height: 35px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: white;
+}
