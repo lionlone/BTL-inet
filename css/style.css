@@ -650,12 +650,14 @@ h3.title {
 .service-basic.container .custom .custom-item figure figcaption .sub-title {
 	margin-top: 10px;
 	margin-bottom: 10px;
+	margin: 0;
 }
 .service-basic.container .custom .custom-item figure figcaption h4 a {
 	color: #1976D2;
 	text-transform: uppercase;
 }
 .service-basic.container .custom .custom-item figure figcaption .des {
+    min-height: 35px;
 }
 .service-basic.container .custom .custom-item figure figcaption .btn-control {
 	color: #1976D2;
