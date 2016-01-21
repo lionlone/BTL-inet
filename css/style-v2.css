@@ -1,0 +1,109 @@
+.product{
+	margin-top:10px;
+	border:1px solid #c0c0c0;
+	border-top-left-radius:3px;
+	border-top-right-radius:3px;
+	width:1198px;
+	float:left;
+}
+
+.title{
+	height:29px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	background:url('../images/bg.jpg') repeat-x bottom left;
+}
+
+#tabs{padding:0px;}
+
+#tabs a{
+	font-size:12px;
+	line-height:29px;
+	font-weight:bold;
+	text-transform:uppercase;
+    color:red;
+	float:left;
+	padding-left:20px;
+}
+.product h1 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #212121;
+    margin: 22px 16px 15px;
+    text-transform: uppercase;
+}
+.set{
+	background:url('../images/tab.png') no-repeat right;
+}
+
+#tab2 {display:none;}
+
+.pod{
+	width: 560px;
+	float:left;
+	border:1px solid #cbcbcb;
+	margin:8px 16px;
+
+}
+.pod:nth-child(3n+1) {
+    clear: left;
+}
+.pod img:hover{
+	border-top: 5px solid #525252;
+}
+.pod img{
+	width: 100%;
+}
+.pod a{
+	font-size:24px;
+}
+.pod a:hover{
+	color: blue;
+}
+.pod span{
+	font-weight: bold;
+    color: red;
+    font-size: 24px;
+}
+.pod .pod-button {
+	margin-top: 12px;
+	text-transform: uppercase;
+	background-color: #1976D2;
+	display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    padding: 9px 12px;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #fff;
+    border-color: rgba(0,0,0,.05);
+}
+.pod .pod-button:hover {
+	background: #247BBF;
+    color: #fff;
+}
+.pod p{
+	font-weight: bold;
+    font-size: 18px;
+}
+.pod-wrapper {
+	padding-bottom: 14px;
+	padding-left: 10px;
+}
+.pod-wrapper .pod-title {
+    color: #212121;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+.social {
+	clear: both;
+}
+.lixi {
+	margin: 5px;
+    width: 99%;
+}
