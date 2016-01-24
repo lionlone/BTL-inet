@@ -789,9 +789,9 @@ h4.HeadLine {
 	background-color: rgba(0,0,0,0);
 	background-image: url(../images/bg-o-service.jpg);
 	background-repeat: no-repeat;
-	background-position: 50% center;
 	padding: 10px 0 0 0px;
 	overflow: auto;
+	background-size:100%;
 }
 .o-service .title-o-service {
 	font-size: 24px;
@@ -806,15 +806,20 @@ h4.HeadLine {
 	margin-top: 20px;
 	width: 48%;
 	float: left;
-	background: white;
 	box-sizing: border-box;
-	padding: 0 25px 0 0;
+	padding: 0px 25px 15px 0px;
 }
 .o-service .container .left {
 	margin-right: 1%;
+	background: url(../images/logo-bo.png), url(../images/sub-bg-service.jpg);
+	background-repeat: no-repeat;
+	background-position: left;
 }
 .o-service .container .right {
 	margin-left: 1%;
+	background: url(../images/logo-stm.png), url(../images/sub-bg-service.jpg);
+	background-repeat: no-repeat;
+	background-position: left;
 }
 .o-service .container .sub-service article {
 	text-align: right;
@@ -823,6 +828,8 @@ h4.HeadLine {
 	text-transform: uppercase;
 	color: #525252;
 	font-size: 18px;
+	margin-top: 16px;
+	margin-bottom: 0;
 }
 .o-service .container .sub-service article p {
 	width: 60%;
@@ -834,27 +841,41 @@ h4.HeadLine {
 .o-service .container .sub-service article .btn-see-more-left {
 	clear: both;
 	float: right;
-	height: 32px;
+	height: 35px;
 	background: #ec903f;
 	width: 30%;
 	text-align: center;
-	line-height: 35px;
+	line-height: 33px;
 	text-transform: uppercase;
 	font-weight: 600;
 	color: white;
+	border-bottom: 3px solid #DE8046;
+	box-sizing: border-box;
+	transition: all 0.15s;
+	border-radius: 5px;
 }
+.o-service .container .sub-service article .btn-see-more-left:hover{border-bottom: 0px solid white;line-height: 37px;}
 .o-service .container .sub-service .btn-see-more-right {
 	clear: both;
 	float: right;
 	clear: both;
 	float: right;
-	height: 32px;
-	background: #4EBA98;
+	height: 35px;
+	background: #48C8A0;
 	width: 30%;
 	text-align: center;
-	line-height: 35px;
+	line-height: 33px;
 	text-transform: uppercase;
 	font-weight: 600;
 	color: white;
+	border-bottom: 3px solid #4EBA98;
+	box-sizing: border-box;
+	transition: all 0.1s;
+	border-radius: 5px;
 }
+<<<<<<< HEAD
+.o-service .container .sub-service article .btn-see-more-right:hover{border-bottom: 0px solid white;line-height: 37px;}
+/* end o-service */
+=======
+>>>>>>> origin/master
 >>>>>>> origin/master

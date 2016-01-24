@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>ĐĂNG KÝ TÀI KHOẢN</title>
+<link rel="stylesheet" type="text/css" href="../css/dang-ki.css">
+<script src="../js/dang-ki.js"></script>
+</head>
+<body> 
+<div class="page">
+  <div class="logo"><a href="http://id.inet.vn"><img src="../images/logo.png" vspace="20"/></a></div>
+  <p>Một mật khẩu sử dụng cho tất cả các dịch vụ của iNET</p>
+  <form action="" method="post" name="frmSignup">
+    <input type="hidden" name="action">
+    <div class="content-box">
+      <div class="title">ĐĂNG KÝ TÀI KHOẢN</div>
+      <div id="error"></div>
+      <div class="content-input">
+        <input class="inputForm" type="text" id="txtName" placeHolder="Họ và tên" />
+        <span class="sao">(*)</span>
+      </div>
+      <div class="content-input">
+        <input class="inputForm" maxlength="20" type="text" id="nickName" name="username" placeHolder="Tên truy cập (>=3 ký tự, viết liền, ko dấu)" />
+        <span class="sao">(*)</span>
+      </div>
+      <div class="content-input">
+        <input class="inputForm" value="" maxlength="50" type="text" id="txtEmail" placeHolder="Email"/>
+        <span class="sao">(*)</span>
+      </div>
+      <div class="content-input">
+        <input class="inputForm" value="" maxlength="20" type="text" name="mobile" type="text" placeHolder="Mobile (09xxxx, 01xxx)" />
+        <span class="sao">(*)</span>
+      </div>
+      <div class="content-input">
+        <input class="inputForm" type="password" id="Password" placeHolder="Mật khẩu (>=6 ký tự)" />
+        <span class="sao">(*)</span>
+      </div>
+      <div class="content-input">
+        <input class="inputForm" type="password" id="rePassword" placeHolder="Nhập lại mật khẩu" />
+        <span class="sao">(*)</span>
+      </div>
+      <div class="content-input">
+        <input class="inputForm" placeHolder="Mã bảo vệ" name="txtCapcha" type="text" style="width: 100px;" size="10" maxlength="10" />
+        <img id="imgCaptcha" src="../images/captcha.gif" /> <span> 
+		<img src="..//images/refresh.png" alt="refresh" style="padding-bottom: 4px;" /> </span> <span id="lblCapcha" style="font-size: 12px; color: #FF0000;"></span> </div>
+      <div class="both"></div>
+      <div class="bt1">
+        <div class="btn-login"> <a style="cursor: pointer;"" class="button1" onClick="kiemtra()">Tạo tài khoản</a> </div>
+      </div>
+    </div>
+  </form>
+  <footer>&copy; Bản quyền <a href="">iDOS.vn</a> - Email: <a href="#">tenmien@gmail.vn</a> -  Hotline: 0904.885.055 </footer>
+</div>
+</body>
+</html>

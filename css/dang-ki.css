@@ -1,0 +1,48 @@
+/* CSS Document */
+.sao {
+	color: red;
+	font-size: 11px;
+}
+.title {
+	font-size: 1.5em;
+	font-weight: bold;
+	padding-bottom: 1em;
+	text-align: center;
+	padding: 40px;
+}
+.page {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 1em;
+	color: #555555;
+	text-align: center;
+}
+.page .logo {
+}
+.page .logo a img {
+}
+.page form .content-box {
+	background: #E5E5E5;
+	font-weight: bold;
+	padding-bottom: 1em;
+	text-align: center;
+	width: 40%;
+	margin: auto;
+}
+.page form .content-box .content-input {
+	margin: 10px;
+}
+.page form .content-box .content-input .inputForm {
+	height: 20px;
+	width: 300px;
+	padding: 10px;
+}
+.page form .content-box .button1 {
+}
+footer {
+	padding: 20px;
+	color: #505050;
+}
+#error {
+	color: red;
+	padding-bottom: 10px;
+}
